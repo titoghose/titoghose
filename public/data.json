@@ -5,5 +5,21 @@
     "picture": "https://i.picsum.photos/id/40/4106/2806.jpg?hmac=MY3ra98ut044LaWPEKwZowgydHZ_rZZUuOHrc3mL5mI",
     "github": "https://github.com/titoghose",
     "linkedin": "https://linkedin.com/in/titoghose",
-    "cv": "https://www.youtube.com/watch?v=MtN1YnoL46Q"
+    "cv": "https://www.youtube.com/watch?v=MtN1YnoL46Q",
+    "projects": [
+        {
+            "id": 1,
+            "image": "https://i.picsum.photos/id/13/2500/1667.jpg?hmac=SoX9UoHhN8HyklRA4A3vcCWJMVtiBXUg0W4ljWTor7s",
+            "title": "Project Title 1",
+            "description": "There were little things that she simply could not stand. The sound of someone tapping their nails on the table. A person chewing with their mouth open. Another human imposing themselves into her space. She couldn't stand any of these things, but none of them compared to the number one thing she couldn't stand which topped all of them combined.",
+            "link": "https://randomword.com/paragraph"
+        },
+        {
+            "id": 2,
+            "image": "https://i.picsum.photos/id/13/2500/1667.jpg?hmac=SoX9UoHhN8HyklRA4A3vcCWJMVtiBXUg0W4ljWTor7s",
+            "title": "Project Title 2",
+            "description": "Spending time at national parks can be an exciting adventure, but this wasn't the type of excitement she was hoping to experience. As she contemplated the situation she found herself in, she knew she'd gotten herself in a little more than she bargained for. It wasn't often that she found herself in a tree staring down at a pack of wolves that were looking to make her their next meal.",
+            "link": "https://randomword.com/paragraph"
+        }
+    ]
 }
