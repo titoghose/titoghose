@@ -15,7 +15,7 @@ export const Router: FC = () => {
             <Navbar />
 
             <Suspense fallback={null}>
-                <Container maxW="6xl" py="4">
+                <Container maxW="6xl" py="8">
                     <Routes>
                         <Route path={RouteName.AboutMe} element={<AboutMePage />} />
                         <Route path={RouteName.Research} element={<ResearchPage />} />

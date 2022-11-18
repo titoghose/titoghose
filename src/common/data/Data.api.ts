@@ -1,10 +1,19 @@
+export interface Project {
+    image: string;
+    title: string;
+    description: string;
+    link: string;
+}
+
 export interface DataType {
     name: string;
     title: string;
     about: string;
+    picture: string;
     github: string;
     linkedin: string;
     cv: string;
+    projects: Project[];
 }
 
 export const readData = async (): Promise<DataType> => {

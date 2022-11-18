@@ -7,7 +7,7 @@ import { RouteName } from 'router/Router.types';
 
 export const Navbar: FC = () => {
     return (
-        <Flex gap="8" justifyContent="center" alignItems="center" p="4" borderBottom="1px solid black" fontWeight="600">
+        <Flex gap="8" justifyContent="center" alignItems="center" p="4" borderBottom="1px solid black" fontWeight="700">
             <Link as={NavLink} to={RouteName.AboutMe} _activeLink={{ color: 'brand' }}>
                 About Me
             </Link>
