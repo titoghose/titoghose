@@ -1,5 +1,9 @@
 import { FC } from 'react';
 
+import { useData } from 'common/data/Data';
+
 export const AboutMe: FC = () => {
-    return <>About Me</>;
+    const { data } = useData();
+
+    return <>{data.about}</>;
 };
