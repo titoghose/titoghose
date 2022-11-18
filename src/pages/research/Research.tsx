@@ -1,6 +1,6 @@
-import { FC } from 'react';
+import { FC, Fragment } from 'react';
 
-import { Box, Button, Flex, Image, Stack, Text } from '@chakra-ui/react';
+import { Box, Button, Divider, Flex, Image, Stack, Text } from '@chakra-ui/react';
 
 import { useData } from 'common/data/Data';
 import { Project } from 'common/data/Data.api';
@@ -37,9 +37,12 @@ export const Research: FC = () => {
 
     return (
         <Box h="100%" w="100%">
-            <Stack spacing="10">
+            <Stack spacing="6">
                 {data.projects.map((project) => (
-                    <ProjectItem key={project.id} {...project} />
+                    <Fragment key={project.id}>
+                        <ProjectItem {...project} />
+                        <Divider borderColor="#ececec" borderWidth="2px" />
+                    </Fragment>
                 ))}
             </Stack>
         </Box>

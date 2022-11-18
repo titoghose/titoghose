@@ -1,9 +1,9 @@
 import { FC } from 'react';
 
 import { Box, Button, Flex, Heading, Image, Text } from '@chakra-ui/react';
+import { Github, Linkedin, FileText } from 'lucide-react';
 
 import { useData } from 'common/data/Data';
-import { Github, Linkedin, FileText } from 'lucide-react';
 
 export const AboutMe: FC = () => {
     const { data } = useData();
@@ -41,6 +41,8 @@ export const AboutMe: FC = () => {
                         variant="outline"
                         leftIcon={<Github width="16pt" />}
                         onClick={() => window.open(data.github)}
+                        borderWidth="2px"
+                        size={{ base: 'lg', md: 'md' }}
                     >
                         GitHub
                     </Button>
@@ -48,10 +50,18 @@ export const AboutMe: FC = () => {
                         variant="outline"
                         leftIcon={<Linkedin width="16pt" />}
                         onClick={() => window.open(data.linkedin)}
+                        borderWidth="2px"
+                        size={{ base: 'lg', md: 'md' }}
                     >
                         LinkedIn
                     </Button>
-                    <Button leftIcon={<FileText width="16pt" />} onClick={() => window.open(data.cv)}>
+                    <Button
+                        leftIcon={<FileText width="16pt" />}
+                        onClick={() => window.open(data.cv)}
+                        borderWidth="2px"
+                        borderColor="brand"
+                        size={{ base: 'lg', md: 'md' }}
+                    >
                         Download CV
                     </Button>
                 </Flex>
