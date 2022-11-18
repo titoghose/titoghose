@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-import { Box, Button, Flex, Heading, HStack, Image, Text } from '@chakra-ui/react';
+import { Box, Button, Flex, Heading, Image, Text } from '@chakra-ui/react';
 
 import { useData } from 'common/data/Data';
 import { Github, Linkedin, FileText } from 'lucide-react';
@@ -26,7 +26,7 @@ export const AboutMe: FC = () => {
                 />
             </Flex>
             <Box flexGrow={1}>
-                <Heading fontSize="4xl" lineHeight={1} textAlign={{ base: 'center', md: 'left' }}>
+                <Heading fontSize="4xl" textAlign={{ base: 'center', md: 'left' }}>
                     {data.name}
                 </Heading>
                 <Text fontWeight="600" textAlign={{ base: 'center', md: 'left' }} color="gray.600">
@@ -42,7 +42,7 @@ export const AboutMe: FC = () => {
                         leftIcon={<Github width="16pt" />}
                         onClick={() => window.open(data.github)}
                     >
-                        Github
+                        GitHub
                     </Button>
                     <Button
                         variant="outline"

@@ -3,12 +3,12 @@ import { ThemeConfig, extendTheme, withDefaultColorScheme, theme as ChakraTheme 
 const config: ThemeConfig = {
     initialColorMode: 'light',
     useSystemColorMode: false,
-    cssVarPrefix: 'sailboat',
+    cssVarPrefix: 'tg',
 };
 
 const fonts = {
     body: "'Plus Jakarta Sans', sans-serif",
-    heading: "'Noto Serif Oriya', sans-serif",
+    heading: "'Libre Baskerville', sans-serif",
 };
 
 const fontWeights = {
