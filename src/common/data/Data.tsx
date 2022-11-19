@@ -13,7 +13,7 @@ const DataContext = createContext<DataContextType | undefined>(undefined);
 
 export const DataProvider: FC<{ children: ReactNode }> = ({ children }) => {
     const [data, setData] = useState<DataType | null>(null);
-    const [loading, setLoading] = useState<boolean>(false);
+    const [loading, setLoading] = useState<boolean>(true);
 
     useEffect(() => {
         (async () => {

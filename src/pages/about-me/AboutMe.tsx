@@ -29,7 +29,7 @@ export const AboutMe: FC = () => {
                 <Heading fontSize="4xl" textAlign={{ base: 'center', md: 'left' }}>
                     {data.name}
                 </Heading>
-                <Text fontWeight="600" textAlign={{ base: 'center', md: 'left' }} color="gray.600">
+                <Text fontWeight="600" textAlign={{ base: 'center', md: 'left' }} color="gray">
                     {data.title}
                 </Text>
                 <Text pt="2" fontWeight="500">

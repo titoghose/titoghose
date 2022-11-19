@@ -1,6 +1,6 @@
 import { FC, lazy, Suspense } from 'react';
 
-import { Container } from '@chakra-ui/react';
+import { Center, Container, Spinner } from '@chakra-ui/react';
 import { Routes, Route } from 'react-router-dom';
 
 import { RouteName } from 'router/Router.types';
@@ -13,15 +13,20 @@ export const Router: FC = () => {
     return (
         <>
             <Navbar />
-
-            <Suspense fallback={null}>
-                <Container maxW="6xl" py="8">
+            <Container maxW="6xl" py="8">
+                <Suspense
+                    fallback={
+                        <Center>
+                            <Spinner size="xl" />
+                        </Center>
+                    }
+                >
                     <Routes>
                         <Route path={RouteName.AboutMe} element={<AboutMePage />} />
                         <Route path={RouteName.Research} element={<ResearchPage />} />
                     </Routes>
-                </Container>
-            </Suspense>
+                </Suspense>
+            </Container>
         </>
     );
 };
