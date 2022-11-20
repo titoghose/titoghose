@@ -18,7 +18,7 @@ export interface DataType {
 }
 
 export const readData = async (): Promise<DataType> => {
-    const request = await fetch('./data.json');
+    const request = await fetch('https://raw.githubusercontent.com/titoghose/titoghose/main/public/data.json');
     const data = await request.json();
 
     return data;
