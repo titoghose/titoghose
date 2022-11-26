@@ -1,7 +1,7 @@
 import { FC } from 'react';
 
 import { Box, Button, Flex, Heading, Image, Text } from '@chakra-ui/react';
-import { Github, Linkedin, FileText } from 'lucide-react';
+import { Github, Linkedin, FileText, Book } from 'lucide-react';
 
 import { useData } from 'common/data/Data';
 
@@ -39,7 +39,7 @@ export const AboutMe: FC = () => {
                 <Flex mt="8" gap="4" flexDirection={{ base: 'column', md: 'row' }}>
                     <Button
                         variant="outline"
-                        leftIcon={<Github width="16pt" />}
+                        leftIcon={<Github width="12pt" />}
                         onClick={() => window.open(data.github)}
                         borderWidth="2px"
                         size={{ base: 'lg', md: 'md' }}
@@ -48,7 +48,7 @@ export const AboutMe: FC = () => {
                     </Button>
                     <Button
                         variant="outline"
-                        leftIcon={<Linkedin width="16pt" />}
+                        leftIcon={<Linkedin width="12pt" />}
                         onClick={() => window.open(data.linkedin)}
                         borderWidth="2px"
                         size={{ base: 'lg', md: 'md' }}
@@ -56,7 +56,16 @@ export const AboutMe: FC = () => {
                         LinkedIn
                     </Button>
                     <Button
-                        leftIcon={<FileText width="16pt" />}
+                        variant="outline"
+                        leftIcon={<Book width="12pt" />}
+                        onClick={() => window.open(data.google_scholar)}
+                        borderWidth="2px"
+                        size={{ base: 'lg', md: 'md' }}
+                    >
+                        Google Scholar
+                    </Button>
+                    <Button
+                        leftIcon={<FileText width="12pt" />}
                         onClick={() => window.open(data.cv)}
                         borderWidth="2px"
                         borderColor="brand"

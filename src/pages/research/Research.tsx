@@ -13,17 +13,18 @@ export const Research: FC = () => {
             <Flex gap="4" flexDir={{ base: 'column', md: 'row' }}>
                 <Image
                     src={image}
-                    h={{ base: '300px', md: '240px' }}
-                    w={{ base: '100%', md: '240px' }}
+                    // h={{ base: '500px', md: '240px' }}
+                    // w={{ base: '100%', md: '240px' }}
+                    boxSize={{ base: '500px', md: '240px' }}
                     borderRadius="xl"
-                    objectFit="cover"
+                    objectFit="contain"
                 />
                 <Flex flexDir="column" justifyContent="space-between" py="2">
                     <Box>
                         <Text fontSize="lg" fontWeight="700">
                             {title}
                         </Text>
-                        <Text fontWeight="500" noOfLines={6}>
+                        <Text fontWeight="500" noOfLines={10}>
                             {description}
                         </Text>
                     </Box>
