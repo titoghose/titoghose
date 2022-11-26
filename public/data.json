@@ -2,24 +2,46 @@
     "name": "Upamanyu Ghose",
     "title": "Computer Science Grad & Computational Neuroscience Enthusiast",
     "about": "The lone lamp post of the one-street town flickered, not quite dead but definitely on its way out. Suitcase by her side, she paid no heed to the light, the street or the town. A car was coming down the street and with her arm outstretched and thumb in the air, she had a plan.",
-    "picture": "https://drive.google.com/file/d/1R1h5yFVbKHuwarNkCRJIx09iKOqfLDzJ/view?usp=share_link",
+    "picture": "https://res.cloudinary.com/dwccfildc/c_limit,f_auto,w_1140/v1650869955/prod/c3ec2c8bb67dc52537b6f7287b932675.jpg",
     "github": "https://github.com/titoghose",
     "linkedin": "https://www.linkedin.com/in/upamanyu-ghose-7b1681130/",
+    "google_scholar": "https://scholar.google.com/citations?user=KCjWzjQAAAAJ&hl=en",
     "cv": "https://drive.google.com/file/d/1p44F0R8YDr6VgN3T813EvLf3P9XQ_4yc/view?usp=share_link",
     "projects": [
         {
             "id": 1,
-            "image": "https://i.picsum.photos/id/13/2500/1667.jpg?hmac=SoX9UoHhN8HyklRA4A3vcCWJMVtiBXUg0W4ljWTor7s",
-            "title": "Project Title 1",
-            "description": "There were little things that she simply could not stand. The sound of someone tapping their nails on the table. A person chewing with their mouth open. Another human imposing themselves into her space. She couldn't stand any of these things, but none of them compared to the number one thing she couldn't stand which topped all of them combined.",
-            "link": "https://randomword.com/paragraph"
+            "image": "https://www.medrxiv.org/content/medrxiv/early/2022/08/22/2022.06.10.22276251/F1.large.jpg",
+            "title": "Genome Wide Association Neural Networks (GWANN)",
+            "description": "",
+            "link": "https://www.medrxiv.org/content/10.1101/2022.06.10.22276251v2"
         },
         {
             "id": 2,
-            "image": "https://i.picsum.photos/id/13/2500/1667.jpg?hmac=SoX9UoHhN8HyklRA4A3vcCWJMVtiBXUg0W4ljWTor7s",
-            "title": "Project Title 2",
-            "description": "Spending time at national parks can be an exciting adventure, but this wasn't the type of excitement she was hoping to experience. As she contemplated the situation she found herself in, she knew she'd gotten herself in a little more than she bargained for. It wasn't often that she found herself in a tree staring down at a pack of wolves that were looking to make her their next meal.",
-            "link": "https://randomword.com/paragraph"
+            "image": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=7725757_13428_2020_1392_Fig4_HTML.jpg",
+            "title": "PyTrack",
+            "description": "",
+            "link": "https://link.springer.com/article/10.3758/s13428-020-01392-6"
+        },
+        {
+            "id": 3,
+            "image": "https://ars.els-cdn.com/content/image/1-s2.0-S0091679X19301189-f06-07-9780128201749.jpg",
+            "title": "Q-Pi",
+            "description": "",
+            "link": "https://www.sciencedirect.com/science/article/abs/pii/S0091679X19301189"
+        },
+        {
+            "id": 4,
+            "image": "https://i.ytimg.com/vi/qRaPDPepJe0/hqdefault.jpg",
+            "title": "Artificial Intelligence: Investing in Yourself",
+            "description": "",
+            "link": "https://www.ted.com/talks/upamanyu_ghose_artificial_intelligence_investing_in_yourself"
+        },
+        {
+            "id": 5,
+            "image": "",
+            "title": "Solis",
+            "description": "",
+            "link": "https://www.whtrust.org/blog/solis-enterprise-challenge"
         }
     ]
 }
