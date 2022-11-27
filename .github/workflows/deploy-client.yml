@@ -18,7 +18,7 @@ jobs:
           fetch-depth: 0
           
       - name: Install dependencides
-        run: yarn
+        run: yarn && yarn build
       
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
