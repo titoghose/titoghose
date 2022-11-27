@@ -25,7 +25,7 @@
         },
         {
             "id": 3,
-            "image": "https://ars.els-cdn.com/content/image/1-s2.0-S0091679X19301189-f06-07-9780128201749.jpg",
+            "image": "https://drive.google.com/uc?id=1xYbOXlpPt_jIJpftFU8kD-T_RSFxDI_I",
             "title": "Q-Pi",
             "description": "Q-Pi is a simple tool using Python 3 that allows the 3D reconstruction, visualization and quantification of invasion at a cellular level. The first step of Q-Pi is the application of a series of filters to segment the cell regions from the background. Following the segmentation, it identifies the contours of the cell, i.e., a set of points in two-dimensional Euclidean space on the boundary of the cell. Finally, the convex hull algorithm is used to reconstruct the cell in 3D Euclidean space. Using the generated convex hull, information of the cell's volume and percentage invasion can be obtained using its relative location to the membrane.",
             "link": "https://www.sciencedirect.com/science/article/abs/pii/S0091679X19301189",
@@ -33,7 +33,7 @@
         },
         {
             "id": 4,
-            "image": "https://i.ytimg.com/vi/qRaPDPepJe0/hqdefault.jpg",
+            "image": "https://drive.google.com/uc?id=1qvnGW1okuGv2ns-5aj6BxClVyrv6Fzas",
             "title": "Artificial Intelligence: Investing in Yourself",
             "description": "This was a talk at TEDxHRCollege in 2017 that explores the similarities between the human brain and AI. It is a very high level abstraction of AI and how it enables us to unfold the convolutions of the mind. It aims to convince you that when you invest in AI, you are actually investing in yourself.",
             "link": "https://www.ted.com/talks/upamanyu_ghose_artificial_intelligence_investing_in_yourself"
