@@ -8,13 +8,15 @@ import { Project } from 'common/data/Data.api';
 export const Research: FC = () => {
     const { data } = useData();
 
-    const ProjectItem: FC<Project> = ({ image, title, description, link }) => {
+    const ProjectItem: FC<Project> = ({ image, title, description, link, code }) => {
+        console.log(code);
         return (
             <Flex gap="6" flexDir={{ base: 'column', md: 'row' }}>
                 <Image
                     src={image}
                     alt={`image-${title}`}
-                    width={{ base: '100%', md: '30%' }}
+                    h={{ base: '300px', md: '360px' }}
+                    w={{ base: '100%', md: '240px' }}
                     borderRadius="xl"
                     objectFit="contain"
                 />
@@ -25,9 +27,16 @@ export const Research: FC = () => {
                         </Text>
                         <Text fontWeight="500">{description}</Text>
                     </Box>
-                    <Button variant="link" mt="4" justifyContent="flex-start" onClick={() => window.open(link)}>
-                        Read More
-                    </Button>
+                    <Flex gap="4">
+                        <Button variant="link" mt="4" justifyContent="flex-start" onClick={() => window.open(link)}>
+                            Read More
+                        </Button>
+                        {code && (
+                            <Button variant="link" mt="4" justifyContent="flex-start" onClick={() => window.open(code)}>
+                                Code
+                            </Button>
+                        )}
+                    </Flex>
                 </Flex>
             </Flex>
         );
