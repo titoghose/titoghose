@@ -29,9 +29,9 @@ export const Navbar: FC = () => {
                 <Link as={NavLink} to={RouteName.Research} _activeLink={{ color: 'brand' }}>
                     Research & Projects
                 </Link>
-                <Link isExternal onClick={() => window.open(data.cv)}>
+                {/* <Link isExternal onClick={() => window.open(data.cv)}>
                     CV
-                </Link>
+                </Link> */}
             </Flex>
         </>
     );

@@ -35,7 +35,7 @@ export const AboutMe: FC = () => {
                 <Flex mt="8" gap="4" flexDirection={{ base: 'column', md: 'row' }}>
                     <Button
                         variant="outline"
-                        leftIcon={<Github width="12pt" />}
+                        leftIcon={<Github width="8pt" />}
                         onClick={() => window.open(data.github)}
                         borderWidth="2px"
                         size={{ base: 'lg', md: 'md' }}
@@ -44,7 +44,7 @@ export const AboutMe: FC = () => {
                     </Button>
                     <Button
                         variant="outline"
-                        leftIcon={<Linkedin width="12pt" />}
+                        leftIcon={<Linkedin width="8pt" />}
                         onClick={() => window.open(data.linkedin)}
                         borderWidth="2px"
                         size={{ base: 'lg', md: 'md' }}
@@ -53,30 +53,30 @@ export const AboutMe: FC = () => {
                     </Button>
                     <Button
                         variant="outline"
-                        leftIcon={<Book width="12pt" />}
+                        leftIcon={<Book width="8pt" />}
                         onClick={() => window.open(data.google_scholar)}
                         borderWidth="2px"
                         size={{ base: 'lg', md: 'md' }}
                     >
-                        Google Scholar
+                        G-Scholar
                     </Button>
                     <Button
                         variant="outline"
-                        leftIcon={<Mail width="12pt" />}
+                        leftIcon={<Mail width="8pt" />}
                         onClick={() => window.open(data.email)}
                         borderWidth="2px"
                         size={{ base: 'lg', md: 'md' }}
                     >
-                        Email
+                        Mail
                     </Button>
                     <Button
-                        leftIcon={<FileText width="12pt" />}
+                        leftIcon={<FileText width="8pt" />}
                         onClick={() => window.open(data.cv)}
                         borderWidth="2px"
                         borderColor="brand"
                         size={{ base: 'lg', md: 'md' }}
                     >
-                        Download CV
+                        CV
                     </Button>
                 </Flex>
                 <Text pt="2" align="justify" fontWeight="500">
