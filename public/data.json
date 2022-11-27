@@ -2,11 +2,11 @@
     "name": "Upamanyu Ghose",
     "title": "Research Scientist, University of Oxford",
     "about": "I am a member of the bioinformatics team in the Translational Neuroscience and Dementia Research Group, specialising in deep learning applied to genomic data. I completed my MSc in Computer Science at Oxford. While computer science and deep learning are the areas I specialise in, neuroscience is the area that deeply fascinates me. I believe that bridging the two fields together has the potential of novel and interesting findings that can better explain unanswered questions of neuroscience. My current work revolves around using artificial neural networks (ANNs) to better understand the genetic factors contributing to neurodegenerative diseases like Alzheimer's disease. Traditional methods of GWAS using linear models have successfully identified several risk loci for a wide range of diseases and other phenotypes, but a large part of the missing heritability of diseases like Alzheimer's remains unexplained. To circumvent this issue, ANNs can be used to identify and incorporate non-linear patterns that are present in genomic data, such as the interaction between different genetic loci, allowing them to understand such diseases better than linear models.",
-    "picture": "https://drive.google.com/file/d/1R1h5yFVbKHuwarNkCRJIx09iKOqfLDzJ",
+    "picture": "https://drive.google.com/uc?id=1R1h5yFVbKHuwarNkCRJIx09iKOqfLDzJ",
     "github": "https://github.com/titoghose",
     "linkedin": "https://www.linkedin.com/in/upamanyu-ghose-7b1681130/",
     "google_scholar": "https://scholar.google.com/citations?user=KCjWzjQAAAAJ&hl=en",
-    "cv": "https://drive.google.com/file/d/1p44F0R8YDr6VgN3T813EvLf3P9XQ_4yc",
+    "cv": "https://drive.google.com/uc?id=1p44F0R8YDr6VgN3T813EvLf3P9XQ_4yc",
     "projects": [
         {
             "id": 1,
