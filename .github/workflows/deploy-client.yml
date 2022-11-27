@@ -3,6 +3,7 @@ name: Deploy Client to GitHub Pages
 "on":
   push:
     paths:
+      - "**"
       - "!public/data.json"
     branches:
       - main
