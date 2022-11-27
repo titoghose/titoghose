@@ -20,12 +20,12 @@ export const Research: FC = () => {
                     borderRadius="xl"
                     objectFit="contain"
                 />
-                <Flex flexDir="column" justifyContent="space-between" py="2">
+                <Flex flexDir="column" justifyContent="center" py="2">
                     <Box>
                         <Text fontSize="lg" fontWeight="700">
                             {title}
                         </Text>
-                        <Text fontWeight="500">{description}</Text>
+                        <Text fontWeight="500" align="justify">{description}</Text>
                     </Box>
                     <Flex gap="4">
                         <Button variant="link" mt="4" justifyContent="flex-start" onClick={() => window.open(link)}>
