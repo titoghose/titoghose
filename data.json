@@ -1,11 +1,12 @@
 {
     "name": "Upamanyu Ghose",
     "title": "Research Scientist, University of Oxford",
-    "about": "I am a member of the bioinformatics team in the Translational Neuroscience and Dementia Research Group, specialising in deep learning applied to genomic data. I completed my MSc in Computer Science at Oxford. While computer science and deep learning are the areas I specialise in, neuroscience is the area that deeply fascinates me. I believe that bridging the two fields together has the potential of novel and interesting findings that can better explain unanswered questions of neuroscience. My current work revolves around using artificial neural networks (ANNs) to better understand the genetic factors contributing to neurodegenerative diseases like Alzheimer's disease. Traditional methods of GWAS using linear models have successfully identified several risk loci for a wide range of diseases and other phenotypes, but a large part of the missing heritability of diseases like Alzheimer's remains unexplained. To circumvent this issue, ANNs can be used to identify and incorporate non-linear patterns that are present in genomic data, such as the interaction between different genetic loci, allowing them to understand such diseases better than linear models.",
+    "about": "I am a researcher in the Translational Neuroscience and Dementia Research Group (TNDRG) at the University of Oxford, specialising in AI applied to genomics. I completed my MSc in Computer Science at Oxford in 2020, and have been at the TNDRG ever since. While AI is the area I specialise in, genomics and neuroscience are the areas that deeply fascinate me. I believe that leveraging the power of AI can facilitate novel and interesting findings in the field of genomics and neuroscience. My current work revolves around using neural networks (NNs) to better understand the genetic factors contributing to neurodegenerative diseases like Alzheimer's disease.",
     "picture": "https://drive.google.com/uc?id=1R1h5yFVbKHuwarNkCRJIx09iKOqfLDzJ",
     "github": "https://github.com/titoghose",
     "linkedin": "https://www.linkedin.com/in/upamanyu-ghose-7b1681130/",
     "google_scholar": "https://scholar.google.com/citations?user=KCjWzjQAAAAJ&hl=en",
+    "email":"mailto:upamanyu.ghose@psych.ox.ac.uk",
     "cv": "https://drive.google.com/uc?id=1p44F0R8YDr6VgN3T813EvLf3P9XQ_4yc",
     "projects": [
         {
@@ -25,7 +26,7 @@
         },
         {
             "id": 3,
-            "image": "https://ars.els-cdn.com/content/image/1-s2.0-S0091679X19301189-f06-07-9780128201749.jpg",
+            "image": "https://drive.google.com/uc?id=1xYbOXlpPt_jIJpftFU8kD-T_RSFxDI_I",
             "title": "Q-Pi",
             "description": "Q-Pi is a simple tool using Python 3 that allows the 3D reconstruction, visualization and quantification of invasion at a cellular level. The first step of Q-Pi is the application of a series of filters to segment the cell regions from the background. Following the segmentation, it identifies the contours of the cell, i.e., a set of points in two-dimensional Euclidean space on the boundary of the cell. Finally, the convex hull algorithm is used to reconstruct the cell in 3D Euclidean space. Using the generated convex hull, information of the cell's volume and percentage invasion can be obtained using its relative location to the membrane.",
             "link": "https://www.sciencedirect.com/science/article/abs/pii/S0091679X19301189",
@@ -33,14 +34,14 @@
         },
         {
             "id": 4,
-            "image": "https://i.ytimg.com/vi/qRaPDPepJe0/hqdefault.jpg",
+            "image": "https://drive.google.com/uc?id=1qvnGW1okuGv2ns-5aj6BxClVyrv6Fzas",
             "title": "Artificial Intelligence: Investing in Yourself",
             "description": "This was a talk at TEDxHRCollege in 2017 that explores the similarities between the human brain and AI. It is a very high level abstraction of AI and how it enables us to unfold the convolutions of the mind. It aims to convince you that when you invest in AI, you are actually investing in yourself.",
             "link": "https://www.ted.com/talks/upamanyu_ghose_artificial_intelligence_investing_in_yourself"
         },
         {
             "id": 5,
-            "image": "",
+            "image": "https://drive.google.com/uc?id=1uyBKCTISYO0r-q0ZMMeFxIPmAI514jrB",
             "title": "Solis",
             "description": "This was an idea developed during the Enterprise Challenge of the Weidenfeld-Hoffmann Trust scholarship and leadership programme, when I was pursuing an MSc in Computer Science at the University of Oxford in 2019-20. Solis is a smart light box integrated with its own mobile app that allows tracking of light therapy sessions and suggests activities to improve mood and mental health. A companion that helps you take control of your mood and mental health. The innovation in mental healthcare that gives light therapy its Peloton moment.",
             "link": "https://www.whtrust.org/blog/solis-enterprise-challenge"
