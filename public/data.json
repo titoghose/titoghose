@@ -1,11 +1,12 @@
 {
     "name": "Upamanyu Ghose",
     "title": "Research Scientist, University of Oxford",
-    "about": "I am a member of the bioinformatics team in the Translational Neuroscience and Dementia Research Group, specialising in deep learning applied to genomic data. I completed my MSc in Computer Science at Oxford. While computer science and deep learning are the areas I specialise in, neuroscience is the area that deeply fascinates me. I believe that bridging the two fields together has the potential of novel and interesting findings that can better explain unanswered questions of neuroscience. My current work revolves around using artificial neural networks (ANNs) to better understand the genetic factors contributing to neurodegenerative diseases like Alzheimer's disease. Traditional methods of GWAS using linear models have successfully identified several risk loci for a wide range of diseases and other phenotypes, but a large part of the missing heritability of diseases like Alzheimer's remains unexplained. To circumvent this issue, ANNs can be used to identify and incorporate non-linear patterns that are present in genomic data, such as the interaction between different genetic loci, allowing them to understand such diseases better than linear models.",
+    "about": "I am a researcher in the Translational Neuroscience and Dementia Research Group (TNDRG) at the University of Oxford, specialising in AI applied to genomics. I completed my MSc in Computer Science at Oxford in 2020, and have been at the TNDRG ever since. While AI is the area I specialise in, genomics and neuroscience are the areas that deeply fascinate me. I believe that leveraging the power of AI can facilitate novel and interesting findings in the field of genomics and neuroscience. My current work revolves around using neural networks (NNs) to better understand the genetic factors contributing to neurodegenerative diseases like Alzheimer's disease.",
     "picture": "https://drive.google.com/uc?id=1R1h5yFVbKHuwarNkCRJIx09iKOqfLDzJ",
     "github": "https://github.com/titoghose",
     "linkedin": "https://www.linkedin.com/in/upamanyu-ghose-7b1681130/",
     "google_scholar": "https://scholar.google.com/citations?user=KCjWzjQAAAAJ&hl=en",
+    "email":"mailto:upamanyu.ghose@psych.ox.ac.uk",
     "cv": "https://drive.google.com/uc?id=1p44F0R8YDr6VgN3T813EvLf3P9XQ_4yc",
     "projects": [
         {
@@ -40,7 +41,7 @@
         },
         {
             "id": 5,
-            "image": "",
+            "image": "https://drive.google.com/uc?id=1uyBKCTISYO0r-q0ZMMeFxIPmAI514jrB",
             "title": "Solis",
             "description": "This was an idea developed during the Enterprise Challenge of the Weidenfeld-Hoffmann Trust scholarship and leadership programme, when I was pursuing an MSc in Computer Science at the University of Oxford in 2019-20. Solis is a smart light box integrated with its own mobile app that allows tracking of light therapy sessions and suggests activities to improve mood and mental health. A companion that helps you take control of your mood and mental health. The innovation in mental healthcare that gives light therapy its Peloton moment.",
             "link": "https://www.whtrust.org/blog/solis-enterprise-challenge"

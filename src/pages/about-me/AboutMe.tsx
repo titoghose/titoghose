@@ -1,7 +1,7 @@
 import { FC } from 'react';
 
 import { Box, Button, Flex, Heading, Image, Text } from '@chakra-ui/react';
-import { Github, Linkedin, FileText, Book } from 'lucide-react';
+import { Github, Linkedin, FileText, Book, Mail } from 'lucide-react';
 
 import { useData } from 'common/data/Data';
 
@@ -32,10 +32,6 @@ export const AboutMe: FC = () => {
                 <Text fontWeight="600" textAlign={{ base: 'center', md: 'left' }} color="gray" pt='1'>
                     {data.title}
                 </Text>
-                <Text pt="2" fontWeight="500">
-                    {data.about}
-                </Text>
-
                 <Flex mt="8" gap="4" flexDirection={{ base: 'column', md: 'row' }}>
                     <Button
                         variant="outline"
@@ -65,6 +61,15 @@ export const AboutMe: FC = () => {
                         Google Scholar
                     </Button>
                     <Button
+                        variant="outline"
+                        leftIcon={<Mail width="12pt" />}
+                        onClick={() => window.open(data.email)}
+                        borderWidth="2px"
+                        size={{ base: 'lg', md: 'md' }}
+                    >
+                        Email
+                    </Button>
+                    <Button
                         leftIcon={<FileText width="12pt" />}
                         onClick={() => window.open(data.cv)}
                         borderWidth="2px"
@@ -74,6 +79,9 @@ export const AboutMe: FC = () => {
                         Download CV
                     </Button>
                 </Flex>
+                <Text pt="2" align="justify" fontWeight="500">
+                    {data.about}
+                </Text>
             </Box>
         </Flex>
     );

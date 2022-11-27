@@ -15,6 +15,7 @@ export interface DataType {
     github: string;
     linkedin: string;
     google_scholar: string;
+    email: string;
     cv: string;
     projects: Project[];
 }
