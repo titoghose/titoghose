@@ -16,7 +16,7 @@ export const AboutMe: FC = () => {
             h="100%"
             flexDirection={{ base: 'column', md: 'row' }}
         >
-            <Flex justifyContent="center" w="100%">
+            <Flex justifyContent="center" flex='0.3'>
                 <Image
                     w={{ base: '200px', md: '400px' }}
                     h={{ base: '200px', md: '400px' }}
@@ -25,11 +25,11 @@ export const AboutMe: FC = () => {
                     borderRadius={{ base: '50%', md: 'xl' }}
                 />
             </Flex>
-            <Box flexGrow={1}>
+            <Box flex='0.7'>
                 <Heading fontSize="4xl" textAlign={{ base: 'center', md: 'left' }}>
                     {data.name}
                 </Heading>
-                <Text fontWeight="600" textAlign={{ base: 'center', md: 'left' }} color="gray">
+                <Text fontWeight="600" textAlign={{ base: 'center', md: 'left' }} color="gray" pt='1'>
                     {data.title}
                 </Text>
                 <Text pt="2" fontWeight="500">

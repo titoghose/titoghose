@@ -10,12 +10,11 @@ export const Research: FC = () => {
 
     const ProjectItem: FC<Project> = ({ image, title, description, link }) => {
         return (
-            <Flex gap="4" flexDir={{ base: 'column', md: 'row' }}>
+            <Flex gap="6" flexDir={{ base: 'column', md: 'row' }}>
                 <Image
                     src={image}
-                    // h={{ base: '500px', md: '240px' }}
-                    // w={{ base: '100%', md: '240px' }}
-                    boxSize={{ base: '500px', md: '240px' }}
+                    alt={`image-${title}`}
+                    width={{ base: '100%', md: '30%' }}
                     borderRadius="xl"
                     objectFit="contain"
                 />
@@ -24,9 +23,7 @@ export const Research: FC = () => {
                         <Text fontSize="lg" fontWeight="700">
                             {title}
                         </Text>
-                        <Text fontWeight="500" noOfLines={10}>
-                            {description}
-                        </Text>
+                        <Text fontWeight="500">{description}</Text>
                     </Box>
                     <Button variant="link" mt="4" justifyContent="flex-start" onClick={() => window.open(link)}>
                         Read More

@@ -13,6 +13,7 @@ export interface DataType {
     picture: string;
     github: string;
     linkedin: string;
+    google_scholar: string;
     cv: string;
     projects: Project[];
 }
