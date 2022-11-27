@@ -2,33 +2,34 @@
     "name": "Upamanyu Ghose",
     "title": "Research Scientist, University of Oxford",
     "about": "I am a member of the bioinformatics team in the Translational Neuroscience and Dementia Research Group, specialising in deep learning applied to genomic data. I completed my MSc in Computer Science at Oxford. While computer science and deep learning are the areas I specialise in, neuroscience is the area that deeply fascinates me. I believe that bridging the two fields together has the potential of novel and interesting findings that can better explain unanswered questions of neuroscience. My current work revolves around using artificial neural networks (ANNs) to better understand the genetic factors contributing to neurodegenerative diseases like Alzheimer's disease. Traditional methods of GWAS using linear models have successfully identified several risk loci for a wide range of diseases and other phenotypes, but a large part of the missing heritability of diseases like Alzheimer's remains unexplained. To circumvent this issue, ANNs can be used to identify and incorporate non-linear patterns that are present in genomic data, such as the interaction between different genetic loci, allowing them to understand such diseases better than linear models.",
-    "picture": "https://res.cloudinary.com/dwccfildc/c_limit,f_auto,w_1140/v1650869955/prod/c3ec2c8bb67dc52537b6f7287b932675.jpg",
+    "picture": "https://drive.google.com/file/d/1R1h5yFVbKHuwarNkCRJIx09iKOqfLDzJ",
     "github": "https://github.com/titoghose",
     "linkedin": "https://www.linkedin.com/in/upamanyu-ghose-7b1681130/",
     "google_scholar": "https://scholar.google.com/citations?user=KCjWzjQAAAAJ&hl=en",
-    "cv": "https://drive.google.com/file/d/1p44F0R8YDr6VgN3T813EvLf3P9XQ_4yc/view?usp=share_link",
+    "cv": "https://drive.google.com/file/d/1p44F0R8YDr6VgN3T813EvLf3P9XQ_4yc",
     "projects": [
         {
             "id": 1,
             "image": "https://www.medrxiv.org/content/medrxiv/early/2022/08/22/2022.06.10.22276251/F1.large.jpg",
             "title": "Genome Wide Association Neural Networks (GWANN)",
             "description": "Augmenting traditional genome wide association studies (GWAS) with advanced machine learning algorithms can allow the detection of novel signals in available cohorts by providing complementary approaches to the existing methods. We introduce “Genome wide association neural networks (GWANN)”, a novel approach that uses neural networks (NNs) to account for nonlinear and SNP-SNP interaction effects. We applied GWANN to family history of Alzheimer's disease (AD) in the UK Biobank. Our method identified 26 known AD genes, 2 target nominations and 67 novel genes, and validated the results against brain eQTLs, AD phenotype associations, biological pathways, disease associations and differentially expressed gene sets in the AD brain. Some drugs targeting novel GWANN hits are currently in clinical trials for AD. Applying NNs for GWAS, alongside existing methods, illustrates their potential to complement existing algorithms and methods, and enable the discovery of novel and tractable targets for AD.",
-            "link": "https://www.medrxiv.org/content/10.1101/2022.06.10.22276251v2.full",
-            "code": "https://www.youtube.com/watch?v=MtN1YnoL46Q"
+            "link": "https://www.medrxiv.org/content/10.1101/2022.06.10.22276251v2.full"
         },
         {
             "id": 2,
-            "image": "https://www.ncbi.nlm.nih.gov/core/lw/2.0/html/tileshop_pmc/tileshop_pmc_inline.html?title=Click%20on%20image%20to%20zoom&p=PMC3&id=7725757_13428_2020_1392_Fig4_HTML.jpg",
+            "image": "",
             "title": "PyTrack",
             "description": "Eye tracking is a widely used tool for behavioral research in the field of psychology. With technological advancement, we now have specialized eye-tracking devices that offer high sampling rates, up to 2000 Hz, and allow for measuring eye movements with high accuracy. They also offer high spatial resolution, which enables the recording of very small movements, like drifts and microsaccades. Features and parameters of interest that characterize eye movements need to be algorithmically extracted from raw data as most eye trackers identify only basic parameters, such as blinks, fixations, and saccades. Eye-tracking experiments may investigate eye movement behavior in different groups of participants and in varying stimuli conditions. Hence, the analysis stage of such experiments typically involves two phases, (i) extraction of parameters of interest and (ii) statistical analysis between different participants or stimuli conditions using these parameters. Furthermore, the datasets collected in these experiments are usually very large in size, owing to the high temporal resolution of the eye trackers, and hence would benefit from an automated analysis toolkit. In this work, we present PyTrack, an end-to-end open-source solution for the analysis and visualization of eye-tracking data. It can be used to extract parameters of interest, generate and visualize a variety of gaze plots from raw eye-tracking data, and conduct statistical analysis between stimuli conditions and subject groups.",
-            "link": "https://link.springer.com/article/10.3758/s13428-020-01392-6"
+            "link": "https://link.springer.com/article/10.3758/s13428-020-01392-6",
+            "code": "https://github.com/titoghose/pytrack"
         },
         {
             "id": 3,
             "image": "https://ars.els-cdn.com/content/image/1-s2.0-S0091679X19301189-f06-07-9780128201749.jpg",
             "title": "Q-Pi",
             "description": "Q-Pi is a simple tool using Python 3 that allows the 3D reconstruction, visualization and quantification of invasion at a cellular level. The first step of Q-Pi is the application of a series of filters to segment the cell regions from the background. Following the segmentation, it identifies the contours of the cell, i.e., a set of points in two-dimensional Euclidean space on the boundary of the cell. Finally, the convex hull algorithm is used to reconstruct the cell in 3D Euclidean space. Using the generated convex hull, information of the cell's volume and percentage invasion can be obtained using its relative location to the membrane.",
-            "link": "https://www.sciencedirect.com/science/article/abs/pii/S0091679X19301189"
+            "link": "https://www.sciencedirect.com/science/article/abs/pii/S0091679X19301189",
+            "code": "https://github.com/titoghose/Q-Pi"
         },
         {
             "id": 4,
