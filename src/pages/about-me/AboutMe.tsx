@@ -85,7 +85,7 @@ export const AboutMe: FC = () => {
                 </Text>
                 <Text mt="4" align="justify" fontWeight="500">
                     Beyond my research interests, I enjoy {' '}
-                    <Link as={NavLink} to={RouteName.Research} color="orange.50">
+                    <Link as={NavLink} to={RouteName.Life} color="orange.500">
                         cooking, swimming, trekking, cycling, and playing the guitar.
                     </Link>
                 </Text>
