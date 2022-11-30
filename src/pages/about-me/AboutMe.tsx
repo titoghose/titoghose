@@ -1,6 +1,6 @@
 import { FC } from 'react';
 
-import { Box, Button, Flex, Heading, Image, Text, Link } from '@chakra-ui/react';
+import { Box, Button, Flex, Heading, Image, Text } from '@chakra-ui/react';
 import { Github, Linkedin, FileText, Book, Mail } from 'lucide-react';
 // import { NavLink } from 'react-router-dom';
 import { useData } from 'common/data/Data';
