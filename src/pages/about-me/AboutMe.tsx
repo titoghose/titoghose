@@ -1,9 +1,10 @@
 import { FC } from 'react';
 
-import { Box, Button, Flex, Heading, Image, Text } from '@chakra-ui/react';
+import { Box, Button, Flex, Heading, Image, Text, Link } from '@chakra-ui/react';
 import { Github, Linkedin, FileText, Book, Mail } from 'lucide-react';
-
+import { NavLink } from 'react-router-dom';
 import { useData } from 'common/data/Data';
+import { RouteName } from 'router/Router.types';
 
 export const AboutMe: FC = () => {
     const { data } = useData();
@@ -81,6 +82,12 @@ export const AboutMe: FC = () => {
                 </Flex>
                 <Text mt="4" align="justify" fontWeight="500">
                     {data.about}
+                </Text>
+                <Text mt="4" align="justify" fontWeight="500">
+                    Beyond my research interests, I enjoy {' '}
+                    <Link as={NavLink} to={RouteName.Research} color="orange.50">
+                        cooking, swimming, trekking, cycling, and playing the guitar.
+                    </Link>
                 </Text>
             </Box>
         </Flex>
