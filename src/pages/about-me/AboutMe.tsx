@@ -2,9 +2,9 @@ import { FC } from 'react';
 
 import { Box, Button, Flex, Heading, Image, Text, Link } from '@chakra-ui/react';
 import { Github, Linkedin, FileText, Book, Mail } from 'lucide-react';
-import { NavLink } from 'react-router-dom';
+// import { NavLink } from 'react-router-dom';
 import { useData } from 'common/data/Data';
-import { RouteName } from 'router/Router.types';
+// import { RouteName } from 'router/Router.types';
 
 export const AboutMe: FC = () => {
     const { data } = useData();
@@ -84,10 +84,11 @@ export const AboutMe: FC = () => {
                     {data.about}
                 </Text>
                 <Text mt="4" align="justify" fontWeight="500">
-                    Beyond my research interests, I enjoy {' '}
-                    <Link as={NavLink} to={RouteName.Life} color="orange.500">
+                    Beyond my research interests, I enjoy cooking, swimming, trekking, cycling, and playing the guitar.
+                    {/* {' '}
+                    <Link as={NavLink} to={RouteName.Life} color="brand">
                         cooking, swimming, trekking, cycling, and playing the guitar.
-                    </Link>
+                    </Link> */}
                 </Text>
             </Box>
         </Flex>
