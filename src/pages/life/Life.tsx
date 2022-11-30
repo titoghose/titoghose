@@ -4,7 +4,7 @@ import { Box, Button, Flex, Heading, Image, Text } from '@chakra-ui/react';
 
 import { useData } from 'common/data/Data';
 
-export const AboutMe: FC = () => {
+export const Life: FC = () => {
     const { data } = useData();
 
     return (
