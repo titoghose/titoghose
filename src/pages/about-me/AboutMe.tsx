@@ -32,7 +32,7 @@ export const AboutMe: FC = () => {
                 <Text fontWeight="600" textAlign={{ base: 'center', md: 'left' }} color="gray" pt='1'>
                     {data.title}
                 </Text>
-                <Flex mt="8" gap="4" flexDirection={{ base: 'column', md: 'row' }}>
+                <Flex mt="4" gap="4" flexDirection={{ base: 'column', md: 'row' }}>
                     <Button
                         variant="outline"
                         leftIcon={<Github width="8pt" />}
@@ -79,7 +79,7 @@ export const AboutMe: FC = () => {
                         CV
                     </Button>
                 </Flex>
-                <Text pt="2" align="justify" fontWeight="500">
+                <Text mt="4" align="justify" fontWeight="500">
                     {data.about}
                 </Text>
             </Box>
