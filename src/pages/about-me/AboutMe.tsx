@@ -1,12 +1,13 @@
 import { FC } from 'react';
 
-import { Box, Button, Flex, Heading, Image, Text } from '@chakra-ui/react';
+import { Box, Button, Flex, Heading, Image, Link, Text } from '@chakra-ui/react';
 import { Github, Linkedin, FileText, Book, Mail } from 'lucide-react';
-// import { NavLink } from 'react-router-dom';
-import { useData } from 'common/data/Data';
-// import { RouteName } from 'router/Router.types';
+import { NavLink } from 'react-router-dom';
 
-export const AboutMe: FC = () => {
+import { useData } from 'common/data/Data';
+import { RouteName } from 'router/Router.types';
+
+const AboutMe: FC = () => {
     const { data } = useData();
 
     return (
@@ -17,7 +18,7 @@ export const AboutMe: FC = () => {
             h="100%"
             flexDirection={{ base: 'column', md: 'row' }}
         >
-            <Flex justifyContent="center" flex='0.3'>
+            <Flex justifyContent="center" flex="0.3">
                 <Image
                     w={{ base: '200px', md: '400px' }}
                     h={{ base: '200px', md: '400px' }}
@@ -26,11 +27,11 @@ export const AboutMe: FC = () => {
                     borderRadius={{ base: '50%', md: 'xl' }}
                 />
             </Flex>
-            <Box flex='0.7'>
+            <Box flex="0.7">
                 <Heading fontSize="4xl" textAlign={{ base: 'center', md: 'left' }}>
                     {data.name}
                 </Heading>
-                <Text fontWeight="600" textAlign={{ base: 'center', md: 'left' }} color="gray" pt='1'>
+                <Text fontWeight="600" textAlign={{ base: 'center', md: 'left' }} color="gray" pt="1">
                     {data.title}
                 </Text>
                 <Flex mt="8" gap="4" flexDirection={{ base: 'column', md: 'row' }}>
@@ -84,13 +85,13 @@ export const AboutMe: FC = () => {
                     {data.about}
                 </Text>
                 <Text mt="4" align="justify" fontWeight="500">
-                    Beyond my research interests, I enjoy cooking, swimming, trekking, cycling, and playing the guitar.
-                    {/* {' '}
+                    {data.life.description}
                     <Link as={NavLink} to={RouteName.Life} color="brand">
-                        cooking, swimming, trekking, cycling, and playing the guitar.
-                    </Link> */}
+                        {data.life.link}
+                    </Link>
                 </Text>
             </Box>
         </Flex>
     );
 };
+export default AboutMe;
