@@ -4,12 +4,13 @@ import { Box, Button, Divider, Flex, Image, Stack, Text } from '@chakra-ui/react
 
 import { useData } from 'common/data/Data';
 import { Project } from 'common/data/Data.api';
+import { Footer } from 'common/footer/Footer';
+import { RouteName } from 'router/Router.types';
 
 export const Research: FC = () => {
     const { data } = useData();
 
     const ProjectItem: FC<Project> = ({ image, title, description, link, code }) => {
-        console.log(code);
         return (
             <Flex gap="6" flexDir={{ base: 'column', md: 'row' }}>
                 <Image
@@ -25,7 +26,9 @@ export const Research: FC = () => {
                         <Text fontSize="lg" fontWeight="700">
                             {title}
                         </Text>
-                        <Text fontWeight="500" align="justify">{description}</Text>
+                        <Text fontWeight="500" align="justify">
+                            {description}
+                        </Text>
                     </Box>
                     <Flex gap="4">
                         <Button variant="link" mt="4" justifyContent="flex-start" onClick={() => window.open(link)}>
@@ -45,13 +48,14 @@ export const Research: FC = () => {
     return (
         <Box h="100%" w="100%">
             <Stack spacing="6">
-                {data.projects.map((project) => (
+                {data.projects.map((project, index) => (
                     <Fragment key={project.id}>
                         <ProjectItem {...project} />
-                        <Divider borderColor="#ececec" borderWidth="2px" />
+                        {index !== data.projects.length - 1 && <Divider borderColor="#ececec" borderWidth="2px" />}
                     </Fragment>
                 ))}
             </Stack>
+            <Footer prevLink={RouteName.AboutMe} prevText="Back to About Me" pt="16" />
         </Box>
     );
 };

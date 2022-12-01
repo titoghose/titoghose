@@ -1,3 +1,16 @@
+export interface LifeImage {
+    id: number;
+    src: string;
+    caption: string;
+    alt: string;
+}
+
+export interface Life {
+    description: string;
+    link: string;
+    images: LifeImage[];
+}
+
 export interface Project {
     id: number;
     image: string;
@@ -18,6 +31,7 @@ export interface DataType {
     email: string;
     cv: string;
     projects: Project[];
+    life: Life;
 }
 
 const DATA_URL_DEV = './data.json';

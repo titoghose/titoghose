@@ -6,7 +6,7 @@ import { Routes, Route } from 'react-router-dom';
 import { RouteName } from 'router/Router.types';
 import { Navbar } from 'common/navbar/Navbar';
 
-const AboutMePage = lazy(() => import('pages/about-me/AboutMe').then((module) => ({ default: module.AboutMe })));
+const AboutMePage = lazy(() => import('pages/about-me/AboutMe').then((module) => ({ default: module.default })));
 const ResearchPage = lazy(() => import('pages/research/Research').then((module) => ({ default: module.Research })));
 const LifePage = lazy(() => import('pages/life/Life').then((module) => ({ default: module.Life })));
 
