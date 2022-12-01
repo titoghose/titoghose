@@ -1,0 +1,98 @@
+{
+    "name": "Upamanyu Ghose",
+    "title": "Research Scientist, University of Oxford",
+    "about": "I am a researcher in the Translational Neuroscience and Dementia Research Group (TNDRG) at the University of Oxford, specialising in AI applied to genomics. I completed my MSc in Computer Science at Oxford in 2020, and have been at the TNDRG ever since. While AI is the area I specialise in, genomics and neuroscience are the areas that deeply fascinate me. I believe that leveraging the power of AI can facilitate novel and interesting findings in the field of genomics and neuroscience. My current work revolves around using neural networks (NNs) to better understand the genetic factors contributing to neurodegenerative diseases like Alzheimer's disease.",
+    "picture": "https://drive.google.com/uc?id=1R1h5yFVbKHuwarNkCRJIx09iKOqfLDzJ",
+    "github": "https://github.com/titoghose",
+    "linkedin": "https://www.linkedin.com/in/upamanyu-ghose-7b1681130/",
+    "google_scholar": "https://scholar.google.com/citations?user=KCjWzjQAAAAJ&hl=en",
+    "email": "mailto:upamanyu.ghose@psych.ox.ac.uk",
+    "cv": "https://drive.google.com/uc?id=1_L1OSjQw6auGqBoo95de9vtcft0EIukV",
+    "projects": [
+        {
+            "id": 1,
+            "image": "https://drive.google.com/uc?id=1Ny1o1OhTwqkscNsAFqu5lLt-R5-nzz04",
+            "title": "Genome Wide Association Neural Networks (GWANN)",
+            "description": "Augmenting traditional genome wide association studies (GWAS) with advanced machine learning algorithms can allow the detection of novel signals in available cohorts by providing complementary approaches to the existing methods. We introduce “Genome wide association neural networks (GWANN)”, a novel approach that uses neural networks (NNs) to account for nonlinear and SNP-SNP interaction effects. We applied GWANN to family history of Alzheimer's disease (AD) in the UK Biobank. Our method identified 26 known AD genes, 2 target nominations and 67 novel genes, and validated the results against brain eQTLs, AD phenotype associations, biological pathways, disease associations and differentially expressed gene sets in the AD brain. Some drugs targeting novel GWANN hits are currently in clinical trials for AD. Applying NNs for GWAS, alongside existing methods, illustrates their potential to complement existing algorithms and methods, and enable the discovery of novel and tractable targets for AD.",
+            "link": "https://www.medrxiv.org/content/10.1101/2022.06.10.22276251v2.full"
+        },
+        {
+            "id": 2,
+            "image": "https://drive.google.com/uc?id=16MXA5fWmBfGI-yUVaIfJ_qdjbei6Q7zP",
+            "title": "PyTrack",
+            "description": "Eye tracking is a widely used tool for behavioral research in the field of psychology. With technological advancement, we now have specialized eye-tracking devices that offer high sampling rates, up to 2000 Hz, and allow for measuring eye movements with high accuracy. They also offer high spatial resolution, which enables the recording of very small movements, like drifts and microsaccades. Features and parameters of interest that characterize eye movements need to be algorithmically extracted from raw data as most eye trackers identify only basic parameters, such as blinks, fixations, and saccades. Eye-tracking experiments may investigate eye movement behavior in different groups of participants and in varying stimuli conditions. Hence, the analysis stage of such experiments typically involves two phases, (i) extraction of parameters of interest and (ii) statistical analysis between different participants or stimuli conditions using these parameters. Furthermore, the datasets collected in these experiments are usually very large in size, owing to the high temporal resolution of the eye trackers, and hence would benefit from an automated analysis toolkit. In this work, we present PyTrack, an end-to-end open-source solution for the analysis and visualization of eye-tracking data. It can be used to extract parameters of interest, generate and visualize a variety of gaze plots from raw eye-tracking data, and conduct statistical analysis between stimuli conditions and subject groups.",
+            "link": "https://link.springer.com/article/10.3758/s13428-020-01392-6",
+            "code": "https://github.com/titoghose/pytrack"
+        },
+        {
+            "id": 3,
+            "image": "https://drive.google.com/uc?id=1xYbOXlpPt_jIJpftFU8kD-T_RSFxDI_I",
+            "title": "Q-Pi",
+            "description": "Q-Pi is a simple tool using Python 3 that allows the 3D reconstruction, visualization and quantification of invasion at a cellular level. The first step of Q-Pi is the application of a series of filters to segment the cell regions from the background. Following the segmentation, it identifies the contours of the cell, i.e., a set of points in two-dimensional Euclidean space on the boundary of the cell. Finally, the convex hull algorithm is used to reconstruct the cell in 3D Euclidean space. Using the generated convex hull, information of the cell's volume and percentage invasion can be obtained using its relative location to the membrane.",
+            "link": "https://www.sciencedirect.com/science/article/abs/pii/S0091679X19301189",
+            "code": "https://github.com/titoghose/Q-Pi"
+        },
+        {
+            "id": 4,
+            "image": "https://drive.google.com/uc?id=1qvnGW1okuGv2ns-5aj6BxClVyrv6Fzas",
+            "title": "Artificial Intelligence: Investing in Yourself",
+            "description": "In today's world, people make use of various forms of AI ranging from google searches to driverless cars. It is often misunderstood that AI is an extremely complex concept to understand. Hence, people try to distance themselves. This talk at TedXHRCollege in 2017 explores this complexity, discussing the foundation of AI algorithms and drawing similarities to the human brain's learning process. It includes a comparison of the brain's visual cortex with the architecture of convolutional neural networks (CNNs) using a toy example of object recognition. The human brain is arguably the most elegantly designed machine but unfortunately remains majorly unexplored. AI can be the tool which would aid exploring and decoding the mysteries of this complex system. The aim of this brief talk was to familiarise people with ways in which AI can help understand the brain and improve the quality and level of natural intelligence. Investing in AI is ultimately investing in yourself.",
+            "link": "https://www.ted.com/talks/upamanyu_ghose_artificial_intelligence_investing_in_yourself"
+        },
+        {
+            "id": 5,
+            "image": "https://drive.google.com/uc?id=1uyBKCTISYO0r-q0ZMMeFxIPmAI514jrB",
+            "title": "Solis",
+            "description": "Solis is a smart light box integrated with its own mobile app that allows tracking of light therapy sessions and suggests activities to improve mood and mental health. A companion that helps you take control of your mood and mental health. The innovation in mental healthcare that gives light therapy its Peloton moment. Solis was ideated along with Dr. Minah Faiz, a brilliant doctor from Maldives who now runs the Mission for Migrant Workers Maldives. It was also awarded the best social enterprise at the Weidenfeld-Hoffmann Trust Enterprise Challenge in 2020.",
+            "link": "https://www.whtrust.org/blog/solis-enterprise-challenge"
+        }
+    ],
+    "life": {
+        "description": "Beyond my research interests, I enjoy ",
+        "link": "cooking, swimming, trekking, cycling, and playing the guitar.",
+        "images": [
+            {
+                "id": 1,
+                "src": "https://i.picsum.photos/id/39/200/300.jpg?hmac=CcUiRU6-82MldMqtiF9shpKCbwzwkILEWuRi90JsADs",
+                "caption": "He took one look at what was under the table.",
+                "alt": ""
+            },
+            {
+                "id": 2,
+                "src": "https://i.picsum.photos/id/3/5000/3333.jpg?hmac=GDjZ2uNWE3V59PkdDaOzTOuV3tPWWxJSf4fNcxu4S2g",
+                "caption": "The ants enjoyed the barbecue more than the family.",
+                "alt": ""
+            },
+            {
+                "id": 3,
+                "src": "https://i.picsum.photos/id/46/3264/2448.jpg?hmac=ZHE8nk-Q9uRp4MxgKNvN7V7pYFvA-9BCv99ltY3HBv4",
+                "caption": "The trick to eating kids.",
+                "alt": ""
+            },
+            {
+                "id": 4,
+                "src": "https://i.picsum.photos/id/57/2448/3264.jpg?hmac=ewraXYesC6HuSEAJsg3Q80bXd1GyJTxekI05Xt9YjfQ",
+                "caption": "She had some amazing news to share.",
+                "alt": ""
+            },
+            {
+                "id": 5,
+                "src": "https://i.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U",
+                "caption": "She was too busy always talking.",
+                "alt": ""
+            },
+            {
+                "id": 6,
+                "src": "https://i.picsum.photos/id/63/5000/2813.jpg?hmac=HvaeSK6WT-G9bYF_CyB2m1ARQirL8UMnygdU9W6PDvM",
+                "caption": "There can never be too many cherries on an ice cream sundae.",
+                "alt": ""
+            },
+            {
+                "id": 7,
+                "src": "https://i.picsum.photos/id/85/1280/774.jpg?hmac=h_HHpvfhMmLP6uOSrHS7HSlXVRuMKfBbc8HFKd1Acv4",
+                "caption": "He walked into the basement with the horror movie",
+                "alt": ""
+            }
+        ]
+    }
+}
