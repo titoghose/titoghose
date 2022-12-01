@@ -36,14 +36,14 @@
             "id": 4,
             "image": "https://drive.google.com/uc?id=1qvnGW1okuGv2ns-5aj6BxClVyrv6Fzas",
             "title": "Artificial Intelligence: Investing in Yourself",
-            "description": "This was a talk at TEDxHRCollege in 2017 that explores the similarities between the human brain and AI. It is a very high level abstraction of AI and how it enables us to unfold the convolutions of the mind. It aims to convince you that when you invest in AI, you are actually investing in yourself.",
+            "description": "In today's world, people make use of various forms of AI ranging from google searches to driverless cars. It is often misunderstood that AI is an extremely complex concept to understand. Hence, people try to distance themselves. This talk at TedXHRCollege in 2017 explores this complexity, discussing the foundation of AI algorithms and drawing similarities to the human brain's learning process. It includes a comparison of the brain's visual cortex with the architecture of convolutional neural networks (CNNs) using a toy example of object recognition. The human brain is arguably the most elegantly designed machine but unfortunately remains majorly unexplored. AI can be the tool which would aid exploring and decoding the mysteries of this complex system. The aim of this brief talk was to familiarise people with ways in which AI can help understand the brain and improve the quality and level of natural intelligence. Investing in AI is ultimately investing in yourself.",
             "link": "https://www.ted.com/talks/upamanyu_ghose_artificial_intelligence_investing_in_yourself"
         },
         {
             "id": 5,
             "image": "https://drive.google.com/uc?id=1uyBKCTISYO0r-q0ZMMeFxIPmAI514jrB",
             "title": "Solis",
-            "description": "This was an idea developed during the Enterprise Challenge of the Weidenfeld-Hoffmann Trust scholarship and leadership programme, when I was pursuing an MSc in Computer Science at the University of Oxford in 2019-20. Solis is a smart light box integrated with its own mobile app that allows tracking of light therapy sessions and suggests activities to improve mood and mental health. A companion that helps you take control of your mood and mental health. The innovation in mental healthcare that gives light therapy its Peloton moment.",
+            "description": "Solis is a smart light box integrated with its own mobile app that allows tracking of light therapy sessions and suggests activities to improve mood and mental health. A companion that helps you take control of your mood and mental health. The innovation in mental healthcare that gives light therapy its Peloton moment. Solis was ideated along with Dr. Minah Faiz, a brilliant doctor from Maldives who now runs the Mission for Migrant Workers Maldives. It was also awarded the best social enterprise at the Weidenfeld-Hoffmann Trust Enterprise Challenge in 2020.",
             "link": "https://www.whtrust.org/blog/solis-enterprise-challenge"
         }
     ]
