@@ -35,14 +35,17 @@ export const Footer: FC<Props> = ({ nextLink, nextText, prevLink, prevText, pt =
             flexDirection={{ base: 'column', md: 'row' }}
         >
             {prevLink && (
-                <Button variant="link" onClick={() => navigate(prevLink)}>
+                <Button size="sm" fontWeight="500" variant="link" onClick={() => navigate(prevLink)}>
                     {prevText}
                 </Button>
             )}
-            {nextLink && (
-                <Button variant="link" onClick={() => navigate(nextLink)}>
+
+            {nextLink ? (
+                <Button size="sm" fontWeight="500" variant="link" onClick={() => navigate(nextLink)}>
                     {nextText}
                 </Button>
+            ) : (
+                <></>
             )}
         </Flex>
     );

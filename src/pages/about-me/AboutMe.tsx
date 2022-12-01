@@ -20,8 +20,8 @@ const AboutMe: FC = () => {
         >
             <Flex justifyContent="center" flex="0.3">
                 <Image
-                    w={{ base: '200px', md: '400px' }}
-                    h={{ base: '200px', md: '400px' }}
+                    w={{ base: '250px', md: '400px' }}
+                    h={{ base: '250px', md: '400px' }}
                     objectFit="cover"
                     src={data.picture}
                     borderRadius={{ base: '50%', md: 'xl' }}

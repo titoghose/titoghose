@@ -55,7 +55,7 @@ export const Research: FC = () => {
                     </Fragment>
                 ))}
             </Stack>
-            <Footer prevLink={RouteName.AboutMe} prevText="Back to About Me" />
+            <Footer prevLink={RouteName.AboutMe} prevText="Back to About Me" pt="16" />
         </Box>
     );
 };
