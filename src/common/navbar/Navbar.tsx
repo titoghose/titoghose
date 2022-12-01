@@ -19,7 +19,7 @@ export const Navbar: FC = () => {
                 gap="8"
                 justifyContent="center"
                 alignItems="center"
-                p="6"
+                p={{ base: 4, md: 6 }}
                 borderBottom="2px solid black"
                 fontWeight="700"
             >
@@ -29,9 +29,6 @@ export const Navbar: FC = () => {
                 <Link as={NavLink} to={RouteName.Research} _activeLink={{ color: 'brand' }}>
                     Research & Projects
                 </Link>
-                {/* <Link isExternal onClick={() => window.open(data.cv)}>
-                    CV
-                </Link> */}
             </Flex>
         </>
     );

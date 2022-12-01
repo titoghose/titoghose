@@ -4,6 +4,8 @@ import { Box, Heading, Image, Text } from '@chakra-ui/react';
 import Masonry, { ResponsiveMasonry } from 'react-responsive-masonry';
 
 import { useData } from 'common/data/Data';
+import { Footer } from 'common/footer/Footer';
+import { RouteName } from 'router/Router.types';
 
 export const Life: FC = () => {
     const { data } = useData();
@@ -30,6 +32,14 @@ export const Life: FC = () => {
                     })}
                 </Masonry>
             </ResponsiveMasonry>
+
+            <Footer
+                pt="16"
+                prevLink={RouteName.AboutMe}
+                prevText="About Me"
+                nextLink={RouteName.Research}
+                nextText="Research & Projects"
+            />
         </Box>
     );
 };
