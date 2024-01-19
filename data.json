@@ -2,16 +2,16 @@
     "name": "Upamanyu Ghose",
     "title": "PhD Student, University of Oxford",
     "about": "I am a researcher in the Translational Neuroscience and Dementia Research Group (TNDRG) at the University of Oxford, specialising in AI applied to genomics. I completed my MSc in Computer Science at Oxford in 2020, and have been at the TNDRG ever since. While AI is the area I specialise in, genomics and neuroscience are the areas that deeply fascinate me. I believe that leveraging the power of AI can facilitate novel and interesting findings in the field of genomics and neuroscience. My current work revolves around using neural networks (NNs) to better understand the genetic factors contributing to neurodegenerative diseases like Alzheimer's disease. Beyond my primary interest in machine learning in the field of biology, I am also very interested in the applications of NLP for healthcare, and machine learning in the field of renewable energy and sustainability.",
-    "picture": "https://drive.google.com/uc?id=1R1h5yFVbKHuwarNkCRJIx09iKOqfLDzJ",
+    "picture": "https://raw.githubusercontent.com/titoghose/titoghose.github.io/main/data/profile_pic.webp",
     "github": "https://github.com/titoghose",
     "linkedin": "https://www.linkedin.com/in/upamanyu-ghose-7b1681130/",
     "google_scholar": "https://scholar.google.com/citations?user=KCjWzjQAAAAJ&hl=en",
     "email": "mailto:upamanyu.ghose@psych.ox.ac.uk",
-    "cv": "https://drive.google.com/uc?id=1254-vu7lkaY4NBP6eINcLpSpDDzFmdSx",
+    "cv": "https://raw.githubusercontent.com/titoghose/titoghose.github.io/main/data/CV_Upamanyu_Ghose.pdf",
     "projects": [
         {
             "id": 1,
-            "image": "https://drive.google.com/uc?id=1Ny1o1OhTwqkscNsAFqu5lLt-R5-nzz04",
+            "image": "https://raw.githubusercontent.com/titoghose/titoghose.github.io/main/data/GWANN.webp",
             "title": "Genome Wide Association Neural Networks (GWANN)",
             "description": "Augmenting traditional genome wide association studies (GWAS) with advanced machine learning algorithms can allow the detection of novel signals in available cohorts by providing complementary approaches to the existing methods. We introduce “Genome wide association neural networks (GWANN)”, a novel approach that uses neural networks (NNs) to account for nonlinear and SNP-SNP interaction effects. We applied GWANN to family history of Alzheimer's disease (AD) in the UK Biobank. Our method identified 26 known AD genes, 2 target nominations and 67 novel genes, and validated the results against brain eQTLs, AD phenotype associations, biological pathways, disease associations and differentially expressed gene sets in the AD brain. Some drugs targeting novel GWANN hits are currently in clinical trials for AD. Applying NNs for GWAS, alongside existing methods, illustrates their potential to complement existing algorithms and methods, and enable the discovery of novel and tractable targets for AD.",
             "link": "https://www.medrxiv.org/content/10.1101/2022.06.10.22276251v2.full",
@@ -19,7 +19,7 @@
         },
         {
             "id": 2,
-            "image": "https://drive.google.com/uc?id=16MXA5fWmBfGI-yUVaIfJ_qdjbei6Q7zP",
+            "image": "https://raw.githubusercontent.com/titoghose/titoghose.github.io/main/data/PyTrack.webp",
             "title": "PyTrack",
             "description": "Eye tracking is a widely used tool for behavioral research in the field of psychology. With technological advancement, we now have specialized eye-tracking devices that offer high sampling rates, up to 2000 Hz, and allow for measuring eye movements with high accuracy. They also offer high spatial resolution, which enables the recording of very small movements, like drifts and microsaccades. Features and parameters of interest that characterize eye movements need to be algorithmically extracted from raw data as most eye trackers identify only basic parameters, such as blinks, fixations, and saccades. Eye-tracking experiments may investigate eye movement behavior in different groups of participants and in varying stimuli conditions. Hence, the analysis stage of such experiments typically involves two phases, (i) extraction of parameters of interest and (ii) statistical analysis between different participants or stimuli conditions using these parameters. Furthermore, the datasets collected in these experiments are usually very large in size, owing to the high temporal resolution of the eye trackers, and hence would benefit from an automated analysis toolkit. In this work, we present PyTrack, an end-to-end open-source solution for the analysis and visualization of eye-tracking data. It can be used to extract parameters of interest, generate and visualize a variety of gaze plots from raw eye-tracking data, and conduct statistical analysis between stimuli conditions and subject groups.",
             "link": "https://link.springer.com/article/10.3758/s13428-020-01392-6",
@@ -27,7 +27,7 @@
         },
         {
             "id": 3,
-            "image": "https://drive.google.com/uc?id=1xYbOXlpPt_jIJpftFU8kD-T_RSFxDI_I",
+            "image": "https://raw.githubusercontent.com/titoghose/titoghose.github.io/main/data/Q_Pi.webp",
             "title": "Q-Pi",
             "description": "Q-Pi is a simple tool using Python 3 that allows the 3D reconstruction, visualization and quantification of invasion at a cellular level. The first step of Q-Pi is the application of a series of filters to segment the cell regions from the background. Following the segmentation, it identifies the contours of the cell, i.e., a set of points in two-dimensional Euclidean space on the boundary of the cell. Finally, the convex hull algorithm is used to reconstruct the cell in 3D Euclidean space. Using the generated convex hull, information of the cell's volume and percentage invasion can be obtained using its relative location to the membrane.",
             "link": "https://www.sciencedirect.com/science/article/abs/pii/S0091679X19301189",
@@ -35,14 +35,14 @@
         },
         {
             "id": 4,
-            "image": "https://drive.google.com/uc?id=1qvnGW1okuGv2ns-5aj6BxClVyrv6Fzas",
+            "image": "https://raw.githubusercontent.com/titoghose/titoghose.github.io/main/data/TedX.webp",
             "title": "Artificial Intelligence: Investing in Yourself",
             "description": "In today's world, people make use of various forms of AI ranging from google searches to driverless cars. It is often misunderstood that AI is an extremely complex concept to understand. Hence, people try to distance themselves. This talk at TedXHRCollege in 2017 explores this complexity, discussing the foundation of AI algorithms and drawing similarities to the human brain's learning process. It includes a comparison of the brain's visual cortex with the architecture of convolutional neural networks (CNNs) using a toy example of object recognition. The human brain is arguably the most elegantly designed machine but unfortunately remains majorly unexplored. AI can be the tool which would aid exploring and decoding the mysteries of this complex system. The aim of this brief talk was to familiarise people with ways in which AI can help understand the brain and improve the quality and level of natural intelligence. Investing in AI is ultimately investing in yourself.",
             "link": "https://www.ted.com/talks/upamanyu_ghose_artificial_intelligence_investing_in_yourself"
         },
         {
             "id": 5,
-            "image": "https://drive.google.com/uc?id=1uyBKCTISYO0r-q0ZMMeFxIPmAI514jrB",
+            "image": "https://raw.githubusercontent.com/titoghose/titoghose.github.io/main/data/Solis.webp",
             "title": "Solis",
             "description": "Solis is a smart light box integrated with its own mobile app that allows tracking of light therapy sessions and suggests activities to improve mood and mental health. A companion that helps you take control of your mood and mental health. The innovation in mental healthcare that gives light therapy its Peloton moment. Solis was ideated along with Dr. Minah Faiz, a brilliant doctor from Maldives who now runs the Mission for Migrant Workers Maldives. It was also awarded the best social enterprise at the Weidenfeld-Hoffmann Trust Enterprise Challenge in 2020.",
             "link": "https://www.whtrust.org/blog/solis-enterprise-challenge"
@@ -54,55 +54,55 @@
         "images": [
             {
                 "id": 1,
-                "src": "https://drive.google.com/uc?id=1LXPhXY8GgKCrJQ4ZeRzXGoOhi_Uy30KN",
+                "src": "https://raw.githubusercontent.com/titoghose/titoghose.github.io/main/data/lhotel_de_ville.webp",
                 "caption": "Le Boulanger de L'hotel de Ville, Bourdeaux",
                 "alt": ""
             },
             {
                 "id": 2,
-                "src": "https://drive.google.com/uc?id=1Pxokxwn1IfnkklyCm_x4j0wyHj5e3kZM",
+                "src": "https://raw.githubusercontent.com/titoghose/titoghose.github.io/main/data/oxford_cycling.webp",
                 "caption": "Cycling on the Bernwood Forest Trail near Oxford",
                 "alt": ""
             },
             {
                 "id": 3,
-                "src": "https://drive.google.com/uc?id=1cF4PNMEnybldZlxXuWaS99XFMTCpyLDR",
+                "src": "https://raw.githubusercontent.com/titoghose/titoghose.github.io/main/data/val_de_nuria1.webp",
                 "caption": "The view en route to Val de Nuria",
                 "alt": ""
             },
             {
                 "id": 4,
-                "src": "https://drive.google.com/uc?id=1qLWPspPh182NuhJRQzOCpf9qKVWP179s",
+                "src": "https://raw.githubusercontent.com/titoghose/titoghose.github.io/main/data/scarisoara_romania.webp",
                 "caption": "Heading to the Scarisoara glacier cave in Romania",
                 "alt": ""
             },
             {
                 "id": 5,
-                "src": "https://drive.google.com/uc?id=1YDY6jqz377xoQhmRnBBOKPvvfARd9UGN",
+                "src": "https://raw.githubusercontent.com/titoghose/titoghose.github.io/main/data/tapas.webp",
                 "caption": "Prepping for tapas night",
                 "alt": ""
             },
             {
                 "id": 6,
-                "src": "https://drive.google.com/uc?id=1MlJe3uxUZ9qAU95YmmDBjCdzBsw-8ZOt",
+                "src": "https://raw.githubusercontent.com/titoghose/titoghose.github.io/main/data/val_de_nuria2.webp",
                 "caption": "On the way up to Val de Nuria, a valley in the Pyrenees",
                 "alt": ""
             },
             {
                 "id": 7,
-                "src": "https://drive.google.com/uc?id=1pbUUZ5NsCuho3EMJK0E2QG6ZP9Q2azhS",
+                "src": "https://raw.githubusercontent.com/titoghose/titoghose.github.io/main/data/fideua_de_marisco.webp",
                 "caption": "Cooking fideua de marisco in Barcelona",
                 "alt": ""
             },
             {
                 "id": 8,
-                "src": "https://drive.google.com/uc?id=1RNmRJU1cFiSznK4b0QgZCh2yKTx1Pfs_",
+                "src": "https://raw.githubusercontent.com/titoghose/titoghose.github.io/main/data/shame_shame_shame.webp",
                 "caption": "\"Shame. Shame. Shame.\"",
                 "alt": ""
             },
             {
                 "id": 9,
-                "src": "https://cat-world.com/wp-content/uploads/2017/06/brown-tabby-cat-scaled.jpg",
+                "src": "https://raw.githubusercontent.com/titoghose/titoghose.github.io/main/data/camp_nou.webp",
                 "caption": "At Camp Nou",
                 "alt": ""
             }
